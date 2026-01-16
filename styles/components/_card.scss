@@ -1,0 +1,58 @@
+@use "../abstracts/" as *;
+
+.card {
+    border: none;
+    border-radius: 3px;
+    padding: 3rem 1rem 7rem 1rem;
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 4rem;
+    }
+
+    .price-label {
+        display: inline-block;
+        margin-bottom: 4rem;
+
+        .price {
+            font-size: 5rem;
+            color: $primary;
+        }
+
+        .renewal {
+            font-size: 2rem;
+            color: $secondary;
+        }
+    }
+
+    .services-list {
+        list-style-type: none;
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+
+        li {
+            margin-bottom: 2rem;
+        }
+
+        li::before {
+            content: "";
+            background-image: url("/housefix/materials/SVG/ Check.svg");
+            background-position: 0 0.1rem;
+            background-size: 1.4rem 1.4rem;
+            background-repeat: no-repeat;
+            margin-left: 1rem;
+            padding-left: 2rem;
+
+
+        }
+
+    }
+
+    &--highlight {
+        box-shadow: inset 0 1.2rem 0 -0.6rem $primary,
+            inset 0 -1.2rem 0 -0.6rem $primary;
+
+
+    }
+}

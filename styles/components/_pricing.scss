@@ -1,0 +1,27 @@
+@use "../abstracts" as *;
+
+.pricing {
+    background-color: $bg-primary;
+    padding: 0 5rem;
+    color: $terciary;
+    padding: 7rem 4rem;
+
+    p {
+        font-size: 2rem;
+        color: $primary;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    .form-check {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+
+        input {
+            margin: 0 1rem;
+        }
+    }
+}

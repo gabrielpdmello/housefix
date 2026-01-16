@@ -1,0 +1,40 @@
+@use "../abstracts/" as *;
+
+/**
+ * Basic typography style for copy text
+ */
+
+html {
+    font-size: 62.5%; //10px
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+.text-secondary {
+    color: $secondary !important;
+}
+
+.text-terciary {
+    color: $terciary !important;
+}
+
+.h-1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.h-2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.h-3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}

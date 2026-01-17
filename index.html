@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <address class="top-address m-0 ">
+        <address class="top-address d-none d-md-flex m-0 ">
             <p class="m-0">Working time: Mon - Thu 9:00 AM - 5:00 PM</p>
             <div class="contact-info">
                 <span class="d-flex align-items-center">
@@ -32,7 +32,7 @@
             </div>
         </address>
 
-        <nav class="navbar navbar-expand-md navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
                 <h1 class="m-0">
                     <a class="navbar-brand" href="#">
@@ -47,8 +47,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="d-flex justify-content-center flex-grow-0 collapse navbar-collapse"
-                    id="navbarSupportedContent">
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -69,14 +68,15 @@
         </nav>
     </header>
     <main>
-        <article class="hero-section d-flex justify-content-between align-items-center">
-            <div class="container-md mx-0">
+        <article
+            class="hero-section d-flex flex-column flex-lg-row justify-content-between align-items-center text-lg-start text-center">
+            <div class="mx-0">
                 <h2 class="h-1">Plumbing Experts Right at Your Doorstep</h2>
                 <p>Our plumbers are the most recognized professionals globally because we’re
                     committed to
                     excellent
                     service, and nothing wears on homeowners like the idea of handling plumbing problems.</p>
-                <span class="d-flex gap-4">
+                <span class="d-flex gap-4 flex-column flex-md-row justify-content-center justify-content-lg-start align-items-center mb-4">
                     <button type="button" class="btn btn-lg btn-primary">Request a Job
                         Estimate</button>
                     <button type="button" class="btn btn--white btn-lg btn-outline-primary">Pricing Plans</button>
@@ -87,12 +87,12 @@
         <article class="pricing">
             <p class="text-center">Pricing Plans ⟶</p>
             <h2 class="h-2 text-center">Affordable Pricing Plans</h2>
-            <div class="form-check form-switch d-flex justify-content-center align-items-center">
+            <div class="form-check form-switch d-flex justify-content-center align-items-center p-0">
                 <span>Monthly</span>
                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckAnnual" checked="true">
                 <label class="form-check-label" for="flexSwitchCheckAnnual">Annual</label>
             </div>
-            <div class="container-fluid d-flex justify-content-between gap-4">
+            <div class="container-fluid d-flex flex-column flex-lg-row justify-content-between gap-4">
                 <div class="card flex-grow-1">
                     <div class="card-body">
                         <h3 class="card-title">Residential Plumbing</h3>
@@ -151,13 +151,13 @@
     </main>
 
     <footer class="footer container-fluid">
-        <div class="contact-us d-flex justify-content-between align-items-center">
+        <div class="contact-us d-lg-flex align-items-lg-center justify-content-lg-between">
             <h2>Contact us to get a quotation.</h2>
             <button class="btn btn--red btn-primary">Contact Us</button>
         </div>
         <div class="main">
-            <div class="d-flex justify-content-between">
-                <address>
+            <div class="wrapper d-flex flex-lg-wrap flex-column flex-lg-row justify-content-lg-between">
+                <address class="order-1 order-lg-0">
                     <h3>Contact</h3>
                     <span>
                         <img class="icon" src="materials/SVG/Location.svg">
@@ -177,7 +177,7 @@
                         <a href="tel:+1800777584">+1-800-777-584</a>
                     </strong>
                 </address>
-                <div>
+                <div class="order-3 order-lg-0">
                     <h3>Navigation</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -187,7 +187,7 @@
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="order-4 order-lg-0">
                     <h3>Template</h3>
                     <ul>
                         <li><a href="#">404</a></li>
@@ -197,24 +197,24 @@
                         <li><a href="#">Changelog</a></li>
                     </ul>
                 </div>
-                <form class="newsletter">
+                <form class="newsletter order-0 order-lg-0">
                     <h3>Newsletter</h3>
                     <p>Get the latest tips and tricks, updates, offers and discount right into your mailbox.</p>
                     <input placeholder="Your Email" type="email" class="form-control" id="inputEmail1"
                         aria-describedby="emailHelp">
                     <button type="submit" class="btn btn-primary w-100">Subscribe Now</button>
                 </form>
-            </div>
-            <div class="socials">
-                <a href="#"><img class="icon" src="materials/SVG/facebook-round-svgrepo-com.svg" /></a>
-                <a href="#"><img class="icon" src="materials/SVG/instagram-round-svgrepo-com.svg" /></a>
-                <a href="#"><img class="icon" src="materials/SVG/twitter-2-svgrepo-com.svg" /></a>
-                <a href="#"><img class="icon" src="materials/SVG/Icon _ Social-Whatsapp.svg" /></a>
+                <div class="socials order-2 order-lg-0">
+                    <a href="#"><img class="icon" src="materials/SVG/facebook-round-svgrepo-com.svg" /></a>
+                    <a href="#"><img class="icon" src="materials/SVG/instagram-round-svgrepo-com.svg" /></a>
+                    <a href="#"><img class="icon" src="materials/SVG/twitter-2-svgrepo-com.svg" /></a>
+                    <a href="#"><img class="icon" src="materials/SVG/Icon _ Social-Whatsapp.svg" /></a>
+                </div>
             </div>
         </div>
-        <div class="copyright d-flex justify-content-between align-items-center">
-            <p class="m-0">© Copyright 2025 by Housefix. Designed & Developed by Hexwaave. Powered by Webflow</p>
-            <span>
+        <div class="copyright d-flex flex-column flex-md-row justify-content-between align-items-md-center">
+            <p class="text-center mb-4">© Copyright 2025 by Housefix. Designed & Developed by Hexwaave. Powered by Webflow</p>
+            <span class="d-flex justify-content-between">
                 <a class="me-4" href="#">Privacy & Police</a>
                 <a href="#">Terms & Conditions</a>
             </span>

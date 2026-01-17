@@ -13,6 +13,10 @@
     .contact-us {
         border-bottom: 2px solid $hr-border;
         padding-bottom: 3rem;
+
+        h2 {
+            margin-bottom: 2rem;
+        }
     }
 
     h2 {
@@ -32,6 +36,10 @@
 
         li {
             margin-bottom: 0.5rem;
+        }
+
+        .wrapper > * {
+            margin-bottom: 2rem;
         }
 
         address {
@@ -81,6 +89,7 @@
         }
 
         .socials {
+            flex-basis: 100%;
             img {
                 width: 2.6rem;
             }

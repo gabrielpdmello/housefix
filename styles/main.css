@@ -460,8 +460,7 @@ html {
   background-image: url("/housefix/materials/img/Body.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 73rem;
-  padding: 0.5rem 4rem;
+  padding: 4rem 4rem 0 4rem;
 }
 .hero-section h2 {
   color: white;
@@ -471,10 +470,12 @@ html {
 .hero-section p {
   color: white;
   font-size: 1.8rem;
+  margin-bottom: 4rem;
 }
 .hero-section .plumber-img {
-  object-fit: contain;
   height: 100%;
+  min-height: 20rem;
+  max-height: 50rem;
 }
 
 .pricing {
@@ -563,6 +564,9 @@ html {
   border-bottom: 2px solid #333C4E;
   padding-bottom: 3rem;
 }
+.footer .contact-us h2 {
+  margin-bottom: 2rem;
+}
 .footer h2 {
   color: white;
   font-size: 4rem;
@@ -578,6 +582,9 @@ html {
 }
 .footer .main li {
   margin-bottom: 0.5rem;
+}
+.footer .main .wrapper > * {
+  margin-bottom: 2rem;
 }
 .footer .main address span {
   display: block;
@@ -611,6 +618,9 @@ html {
 .footer .main .newsletter .btn {
   font-size: 1.4rem;
   padding: 0.8rem 1rem;
+}
+.footer .main .socials {
+  flex-basis: 100%;
 }
 .footer .main .socials img {
   width: 2.6rem;

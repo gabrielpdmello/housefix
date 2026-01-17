@@ -410,7 +410,6 @@ html {
   background-color: white !important;
   display: flex;
   justify-content: space-between;
-  padding: 1.7rem 5rem;
 }
 .navbar .nav-link {
   color: #010F23 !important;
@@ -420,6 +419,15 @@ html {
 }
 .navbar .active {
   color: #3F9AED !important;
+}
+.navbar .navbar-toggler {
+  border: none;
+  filter: brightness(0) saturate(100%) invert(58%) sepia(90%) saturate(2865%) hue-rotate(186deg) brightness(98%) contrast(89%);
+}
+.navbar .navbar-toggler-icon {
+  background-image: url("/housefix/materials/SVG/Icon _ Hamburger-02.svg");
+  width: 3rem;
+  height: 3rem;
 }
 
 .btn {

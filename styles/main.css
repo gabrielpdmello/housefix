@@ -441,6 +441,14 @@ html {
 .btn--white {
   color: white;
 }
+.btn--red {
+  background-color: #E23E40;
+  border: none;
+}
+.btn--red:hover {
+  background-color: #E23E40 !important;
+  border: none !important;
+}
 
 .btn:hover {
   background-color: #3F9AED;
@@ -540,6 +548,78 @@ html {
 }
 .logo_img {
   height: 4.4rem;
+}
+
+.footer {
+  background-color: #11141A;
+  padding: 7rem 4rem 0 4rem;
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer .contact-us {
+  border-bottom: 2px solid #333C4E;
+  padding-bottom: 3rem;
+}
+.footer h2 {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.footer .main {
+  padding: 3.6rem 0;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #333C4E;
+}
+.footer .main ul {
+  list-style-type: none;
+}
+.footer .main li {
+  margin-bottom: 0.5rem;
+}
+.footer .main address span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.footer .main address strong {
+  font-size: 1.6rem;
+}
+.footer .main .icon {
+  width: 1.4rem;
+  margin-right: 1rem;
+}
+.footer .main .icon--big {
+  width: 2rem;
+}
+.footer .main .icon--red {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(54%) saturate(2419%) hue-rotate(334deg) brightness(142%) contrast(89%);
+}
+.footer .main .newsletter {
+  max-width: 24rem;
+}
+.footer .main .newsletter h3 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.footer .main .newsletter input {
+  font-size: 1.6rem;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+}
+.footer .main .newsletter .btn {
+  font-size: 1.4rem;
+  padding: 0.8rem 1rem;
+}
+.footer .main .socials img {
+  width: 2.6rem;
+}
+.footer .main .socials a {
+  margin-right: 1.6rem;
+}
+.footer .copyright {
+  padding: 3rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */

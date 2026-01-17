@@ -1,0 +1,99 @@
+@use "../abstracts/" as *;
+
+.footer {
+    background-color: $bg-secondary;
+    padding: 7rem 4rem 0 4rem;
+    color: white;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .contact-us {
+        border-bottom: 2px solid $hr-border;
+        padding-bottom: 3rem;
+    }
+
+    h2 {
+        color: white;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    .main {
+        padding: 3.6rem 0;
+        font-size: 1.2rem;
+        border-bottom: 2px solid $hr-border;
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        address {
+
+            span {
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+
+            strong {
+                font-size: 1.6rem;
+            }
+
+        }
+
+        .icon {
+            width: 1.4rem;
+            margin-right: 1rem;
+
+            &--big {
+                width: 2rem;
+            }
+
+            &--red {
+                filter: brightness(0) saturate(100%) invert(20%) sepia(54%) saturate(2419%) hue-rotate(334deg) brightness(142%) contrast(89%);
+            }
+        }
+
+        .newsletter {
+            max-width: 24rem;
+
+            h3 {
+                font-size: 2.8rem;
+                margin-bottom: 1rem;
+            }
+
+            input {
+                font-size: 1.6rem;
+                padding: 1rem 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .btn {
+                font-size: 1.4rem;
+                padding: 0.8rem 1rem;
+            }
+        }
+
+        .socials {
+            img {
+                width: 2.6rem;
+            }
+
+            a {
+                margin-right: 1.6rem;
+            }
+        }
+
+    }
+
+    .copyright {
+        padding: 3rem 0;
+    }
+
+}

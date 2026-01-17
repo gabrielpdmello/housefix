@@ -22,12 +22,7 @@
         color: white;
     }
 
-    &--red {
-        background-color: #E23E40;
-        border: none;
-    }
-
-    &--red:hover {
+    &--red, &--red:hover {
         background-color: #E23E40 !important;
         border: none !important;
 

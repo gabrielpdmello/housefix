@@ -38,34 +38,27 @@
             margin-bottom: 0.5rem;
         }
 
-        .wrapper > * {
+        .wrapper>* {
             margin-bottom: 2rem;
         }
 
         address {
 
-            span {
-                display: block;
+            >span {
+                display: flex;
+                align-items: center;
                 margin-bottom: 0.5rem;
             }
 
             strong {
                 font-size: 1.6rem;
+
+                > span {
+                    display: flex;
+                    align-items: center;
+                }
             }
 
-        }
-
-        .icon {
-            width: 1.4rem;
-            margin-right: 1rem;
-
-            &--big {
-                width: 2rem;
-            }
-
-            &--red {
-                filter: brightness(0) saturate(100%) invert(20%) sepia(54%) saturate(2419%) hue-rotate(334deg) brightness(142%) contrast(89%);
-            }
         }
 
         .newsletter {
@@ -90,6 +83,7 @@
 
         .socials {
             flex-basis: 100%;
+
             img {
                 width: 2.6rem;
             }

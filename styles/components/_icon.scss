@@ -1,0 +1,64 @@
+@use "../abstracts/" as *;
+
+.icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(61%) saturate(10%) hue-rotate(215deg) brightness(104%) contrast(100%);
+    margin-right: 0.6rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0;
+
+    &--small {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    &--big {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 2rem;
+    }
+
+    &--red {
+        filter: brightness(0) saturate(100%) invert(38%) sepia(63%) saturate(2644%) hue-rotate(334deg) brightness(88%) contrast(100%);
+    }
+
+    &--mail {
+        background-image: url("/housefix/materials/SVG/Icon\ _\ Email.svg");
+    }
+
+    &--phone {
+        background-image: url("/housefix/materials/SVG/Icon\ _\ Phone-2.svg");
+    }
+
+    &--facebook {
+        background-image: url("/housefix/materials/SVG/facebook-round-svgrepo-com.svg");
+    }
+
+    &--twitter {
+        background-image: url("/housefix/materials/SVG/twitter-2-svgrepo-com.svg");
+    }
+
+    &--instagram {
+        background-image: url("/housefix/materials/SVG/instagram-round-svgrepo-com.svg");
+    }
+    
+    &--whatsapp {
+        background-image: url("/housefix/materials/SVG/Icon\ _\ Social-Whatsapp.svg");
+    }
+
+    &--marker {
+        background-image: url("/housefix/materials/SVG/Location.svg");
+    }
+
+    &--mail-fill {
+        background-image: url("/housefix/materials/SVG/Email.svg");
+    }
+
+    &--phone-fill {
+        background-image: url("/housefix/materials/SVG/Call-Fill.svg");
+    }
+
+}

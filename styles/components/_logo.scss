@@ -1,7 +1,10 @@
+@use "../abstracts/" as *;
+
 .logo {
     font-size: 2rem;
     font-weight: bold;
-    &_img {
-        height: 4.4rem;
+
+    .fix {
+        color: $primary;
     }
 }
